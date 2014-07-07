@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	text-align: center;;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.row {
+		margin-bottom: 20px;
+	}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+	padding-right: 0;
+}
+
+.col-1 {
+	width: 100%;
+	background:red;
+}
