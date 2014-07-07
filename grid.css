@@ -1,21 +1,16 @@
-* {
-	box-sizing: border-box;
-	text-align: center;;
-}
-
 .container{
 	max-width: 960px;
 	margin: 0 auto;
 }
 
-.row {
-		margin-bottom: 20px;
-	}
-
 .row:after {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.row {
+	margin-bottom: 20px;
 }
 
 [class*='col-'] {
@@ -28,6 +23,25 @@
 }
 
 .col-1 {
+	background: #adadad;
 	width: 100%;
-	background:red;
+	height: 400px;
+	font-size: 100px;
 }
+
+.col-1-6 {
+	background: #e0e0e0;
+	width: 16.66%;
+}
+
+.col-2-12 {
+	background: #adadad;
+	width: 16.66%;
+	height: 400px;
+}
+
+.col-10-12 {
+	background: #adadad;
+	width: 83.33%;
+}
+
