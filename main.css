@@ -7,8 +7,15 @@ header .row {
 	background: #ececec;
 }
 
+.header {
+	height: 200px;
+	padding: 100px;
+	margin: 100px;
+	background: #ffffff;
+}
+
 .row_two {
-	height: 800px;
+	height: 40em;
 	background: #ececec;
 }
 
@@ -19,6 +26,11 @@ header .row {
 
 .row_four {
 	height: 500px;
+	background: #ececec;
+}
+
+.row_five{
+	height: 200px;
 	background: #ececec;
 }
 
@@ -52,12 +64,14 @@ body {
 	font-size: 100px;
 	letter-spacing: -15px;
 	font-weight: 100;
+	background: #ffffff;
 }
 
 .contact {
 	font-family: "Helvetica neue";
-	font-size: 200px;
+	font-size: 100px;
 	font-weight: 100;
-	word-spacing: -50px;
-	letter-spacing: -15px;
+	word-spacing: -25px;
+	letter-spacing: -5px;
+	padding: 40px;
 }
