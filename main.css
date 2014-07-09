@@ -1,5 +1,9 @@
+a {
+	text-decoration: none;
+}
+
 .row_one {
-	background: #ebebeb;
+	background: #ebe0c2;
 	height: 864px;
 	margin-bottom: 0px;
 }
@@ -12,12 +16,13 @@
 	letter-spacing: -25px;
 	line-height: 240px;
 	background: #ffffff;
+	color: #07075f;
 	margin-top: 288px;
 }
 
 .row_two {
 	height: 1008px;
-	background: #c2c2c2;
+	background: #fff7d8;
 	margin-bottom: 0px;
 }
 
@@ -28,6 +33,7 @@
 	letter-spacing: -35px;
 	line-height: 240px;
 	margin-top: 192px;
+	color: #07075f;
 }
 
 .text {
@@ -38,29 +44,38 @@
 	text-indent: 50px;
 	line-height: 36px;
 	padding:132px;
+	color: #07075f;
 }
 
 .row_three {
 	height: 1008px;
-	background: #adadad;
+	background: #dfdfdf;
 }
 
-.projects {
+.paper {
 	line-height: 100px;
 	font-family: 'Amatic SC', cursive;
 	font-size: 100px;
+	color: #07075f;
 	word-wrap: break-word;width:1px;
+	margin-top: 130px;
+}
+
+hr {
+	float:right;
+	color: #07075f;
 }
 
 .row_four {
 	height: 1008px;
-	background: #999999;
+	background: #dfdfdf;
 }
 
 .ideas {
 	line-height: 100px;
 	font-family: 'Amatic SC', cursive;
 	font-size: 100px;
+	color: #07075f;
 	word-wrap: break-word;width:1px;
 	margin-top: 150px;
 }
@@ -77,7 +92,7 @@
 
 .row_five{
 	height: 288px;
-	background: #7a7a7a;
+	background: #cacaca;
 	padding-top: 31px;
 	margin-bottom: 72px;
 	margin-top: 48px;
@@ -86,6 +101,7 @@
 .col-5-6 {
 	width: 83.33%;
 	float: right;
+	padding-top: 300px;
 }
 
 body {
@@ -100,4 +116,5 @@ body {
 	letter-spacing: -5px;
 	float: right;
 	padding-right: 30px;
+	color: #07075f;
 }
