@@ -1,3 +1,51 @@
+input {
+	margin: 20px;
+}
+
+input[type=text],
+input[type=password] {
+	width: 300px;
+}
+
+h2 {
+	font-size: 100px;
+	margin-top: 3px;
+	letter-spacing: -7px;
+}
+
+select {
+	margin-top:20px;
+	width: 300px;
+}
+
+textarea {
+	margin-top:30px;
+	margin-right: 400px;
+	margin-left: 20px;
+	text-align: center;
+	padding: 15px;
+}
+.contact {
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+form {
+	margin-left: 140px;
+	margin-top: 51px;
+	margin-bottom: 20px;
+}
+
+.requests {
+	margin-bottom: 30px;
+	margin-left: -30px;
+}
+
+video {
+	margin-top: 0px
+;}
+
 * {
 	font-style: "Courier New", Courier, monospace;
 }
@@ -24,6 +72,7 @@ a {
 .col-5-6 {
 	width: 83.33%;
 	float: right;
+	margin-top: 50px;
 }
 
 .foto_1 {
@@ -67,6 +116,14 @@ a {
 }
 
 .p_images {
+	width: 100%;
+	text-align: left;
+	line-height: 24px;
+	float: left;
+	border-top: 2px solid black;
+}
+
+.p_contact {
 	width: 100%;
 	text-align: left;
 	line-height: 24px;
@@ -128,7 +185,7 @@ a {
 	height: 100px;
 	font-size: 150px;
 	letter-spacing: -5px;
-	margin-top: 7px;
+	margin-top: -41px;
 }
 
 .foto {
@@ -155,12 +212,6 @@ a {
 	float: right;
 	margin-top: 20px;
 	border-top: 1px solid black;
-}
-
-.contact {
-	width: 50%;
-	height: 60px;
-	float: left;
 }
 
 .back {
