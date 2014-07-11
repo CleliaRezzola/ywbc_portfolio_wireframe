@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PORTFOLIO</title>
-	<link href='http://fonts.googleapis.com/css?family=Pompiere|Wire+One|Alegreya+Sans:100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pompiere|Wire+One|Alegreya+Sans:100|Amatic+SC' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="grid.css">
 	<link rel="stylesheet" href="main.css">
 	<title>Contact Success</title>
