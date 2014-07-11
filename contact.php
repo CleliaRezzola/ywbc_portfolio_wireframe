@@ -20,17 +20,17 @@
 					<div class="p_project"><a href="projects.html">PROJECTS</a></div>
 					<div class="p_paper"><a href="paper.html">PAPER</a></div>
 					<div class="p_images"><a href="images.html">IMAGES</a></div>
-					<div class="p_contact"><a href="contact.html">CONTACT</a></div>
+					<div class="p_contact"><a href="contact.php">CONTACT</a></div>
 				</div>
 			</div>
-			<form method="post" action="contact_success.php">
+			
 			<div class="col-5-6">
 				<div class="contact_input">
 					<h2>CONTACT ME</h2>
-					<form action="" id="contact_form">
+					<form method="post" action="contact_success.php">
 						<p class="requests">PLEASE FEEL FREE TO CONTACT ME IF YOU HAVE ANY REQUESTS.</p>
-						YOUR NAME:<input type="text" class="your_name"><br>
-						YOUR EMAIL:<input type="text" class="your_email"><br>
+						YOUR NAME:<input type="text" class="your_name" name="your_name"><br>
+						YOUR EMAIL:<input type="text" class="your_email" name="your_email"><br>
 						<input type="radio" name="sex" value="male">Male
 						<input type="radio" name="sex" value="female">Female<br>						
 						YOUR COUNTRY:<select>

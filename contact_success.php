@@ -2,18 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>PAPER</title>
-	<link href='http://fonts.googleapis.com/css?family=Pompiere|Wire+One|Alegreya+Sans:100|Amatic+SC' rel='stylesheet' type='text/css'>
+	<title>PORTFOLIO</title>
+	<link href='http://fonts.googleapis.com/css?family=Pompiere|Wire+One|Alegreya+Sans:100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="grid.css">
 	<link rel="stylesheet" href="main.css">
-<!--	<link rel="stylesheet" href="http://basehold.it/24"> -->
+	<title>Contact Success</title>
 </head>
-
 <body>
-	
 	<div class="container">
 
-		<div class="one_about">
+		<div class="one">
 			<div class="col-1-6">
 				<div class="presence">
 					<div class="p_logo"><a href="index.html"><img src="addition/LOGO.jpg"></a></div>
@@ -25,45 +23,25 @@
 				</div>
 			</div>
 			<div class="col-5-6">
-				<div class="title">PAPER</div>
-		</div>
-
-		<div class="two">
-			<div class="col-1-6"></div>
-			<div class="row_img">
-				<div class="foto_paper"></div>
-				<div class="foto_paper"></div>
-
-			</div>
-		</div>
-
-		<div class="two">
-			<div class="col-1-6"></div>
-			<div class="row_img">
-				<div class="foto_paper"></div>
-				<div class="foto_paper"></div>
-			</div>
-		</div>
-
-		<div class="two">
-			<div class="col-1-6"></div>
-			<div class="row_img">
-				<div class="foto_paper"></div>
-				<div class="foto_paper"></div>
+				<div class="thanks">
+					<?php
+						echo "<h1>Thank you, ".$_POST['your_name']." for leaving me a message!</h1>";
+					?>
 			</div>
 		</div>
 
 		<div class="four">
 			<div class="col-1-6"></div>
 			<div class="footer">
-				<div class="back"><a href="index.html">BACK</a></div>
-				<div class="contact"> 
+				<div class="copyright"> </div>
 				 		<a class="fb" href="https://www.facebook.com/">FACEBOOK</a>
 						<a class="mail" href="mailto:clalia.rezzola@hotmail.com">E-MAIL</a>
 				</div>
 			</div>
 		</div>
 
+	</div>	
 </body>
 
+</body>
 </html>

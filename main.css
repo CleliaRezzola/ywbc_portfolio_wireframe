@@ -1,51 +1,3 @@
-input {
-	margin: 20px;
-}
-
-input[type=text],
-input[type=password] {
-	width: 300px;
-}
-
-h2 {
-	font-size: 100px;
-	margin-top: 3px;
-	letter-spacing: -7px;
-}
-
-select {
-	margin-top:20px;
-	width: 300px;
-}
-
-textarea {
-	margin-top:30px;
-	margin-right: 400px;
-	margin-left: 20px;
-	text-align: center;
-	padding: 15px;
-}
-.contact {
-	width: 50%;
-	height: 60px;
-	float: left;
-}
-
-form {
-	margin-left: 140px;
-	margin-top: 51px;
-	margin-bottom: 20px;
-}
-
-.requests {
-	margin-bottom: 30px;
-	margin-left: -30px;
-}
-
-video {
-	margin-top: 0px
-;}
-
 * {
 	font-style: "Courier New", Courier, monospace;
 }
@@ -73,6 +25,20 @@ a {
 	width: 83.33%;
 	float: right;
 	margin-top: 50px;
+}
+
+.row_img {
+	width: 83.33%;
+	float: right;
+	margin-top: 57px;
+}
+
+.single_img {
+	width: 50%;
+	height: 250px;
+	float: right;
+	border:2px solid white;
+	background: #dfdfdf;
 }
 
 .foto_1 {
@@ -143,6 +109,20 @@ a {
 	float: left;
 	border:2px solid white;
 	background: #ebe0c2;
+	font-family: 'Amatic SC', cursive;
+	font-size: 100px;
+	font-weight: 100;
+	line-height: 100px;
+	letter-spacing: -9px;
+	text-align: center;
+	padding-top: 69px;
+}
+
+.bg_about {
+	width: 100%;
+	height: 800px;
+	margin-top: 58px;
+	background: #ebe0c2;
 }
 
 .foto_paper {
@@ -151,6 +131,13 @@ a {
 	float: right;
 	border:2px solid white;
 	background: #fff7d8;
+	font-family: 'Amatic SC', cursive;
+	font-size: 100px;
+	font-weight: 100;
+	line-height: 100px;
+	letter-spacing: -9px;
+	text-align: center;
+	padding-top: 69px;
 }
 
 .three {
@@ -164,6 +151,13 @@ a {
 	float: right;
 	border:2px solid white;
 	background: #dfdfdf;
+	font-family: 'Amatic SC', cursive;
+	font-size: 100px;
+	font-weight: 100;
+	line-height: 100px;
+	letter-spacing: -9px;
+	text-align: center;
+	padding-top: 69px;
 }
 
 .foto_images {
@@ -172,6 +166,13 @@ a {
 	float: right;
 	border:2px solid white;
 	background: #cacaca;
+	font-family: 'Amatic SC', cursive;
+	font-size: 100px;
+	font-weight: 100;
+	line-height: 100px;
+	letter-spacing: -9px;
+	text-align: center;
+	padding-top: 69px;
 }
 
 .four {
@@ -237,4 +238,58 @@ a {
 	float: left;
 	letter-spacing: 1px;
 	padding:20px;
+}
+
+input {
+	margin: 20px;
+}
+
+input[type=text],
+input[type=password] {
+	width: 300px;
+}
+
+h2 {
+	font-size: 100px;
+	margin-top: 3px;
+	letter-spacing: -7px;
+}
+
+select {
+	margin-top:20px;
+	width: 300px;
+}
+
+textarea {
+	margin-top:30px;
+	margin-right: 400px;
+	margin-left: 20px;
+	text-align: center;
+	padding: 15px;
+}
+.contact {
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+form {
+	margin-left: 140px;
+	margin-top: 51px;
+	margin-bottom: 20px;
+}
+
+.requests {
+	margin-bottom: 30px;
+	margin-left: -30px;
+}
+
+video {
+	margin-top: 0px;
+}
+
+.thanks {
+	margin-top: 109px;
+	margin-bottom: 300px;
+	text-align: center;
 }
